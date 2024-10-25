@@ -1,0 +1,116 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    background: url('https://www.games4u.com/sc/br/g4u/_imgwy_/902f3fc80f44bb85574e536eb4eb83ca/?i=http%3A%2F%2Fp2.trrsf.com%2Fimage%2Ffget%2Fcf%2F1366%2F676%2Fsmart%2Fimages.terra.com%2F2017%2F05%2F23%2Fgta-vbg.jpg') no-repeat center center fixed;
+    background-size: cover;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.5);
+}
+.logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+.logo img {
+    height: 50px;
+    margin-right: 10px;
+}
+.logo h1 {
+    font-size: 48px;
+    font-weight: 700;
+    margin: 0;
+}
+.nav {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.nav a {
+    color: white;
+    margin: 0 10px;
+    text-decoration: none;
+    font-weight: 700;
+}
+.nav .login {
+    background-color: #0051ff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: black;
+}
+.content {
+    margin-top: 20px;
+}
+.content h2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin: 10px 0;
+}
+.play-button {
+    background-color: #0051ff;
+    color: black;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    font-weight: 700;
+    text-decoration: none;
+    display: inline-block;
+    margin: 20px 0;
+}
+.social-icons {
+    margin-top: 20px;
+}
+.social-icons a {
+    color: white;
+    margin: 0 10px;
+    font-size: 24px;
+    text-decoration: none;
+}
+.icon-text {
+    display: flex;
+    align-items: center;
+    font-size: 32px; /* Aumenta o tamanho do texto */
+    font-weight: bold; /* Deixa o texto em negrito */
+}
+.icon-text i {
+    font-size: 50px; /* Aumenta o tamanho do ícone */
+    margin-right: 78px; /* Espaço entre o ícone e o texto */
+    color: #007BFF; /* Cor do ícone */
+}
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.card {
+    background: white;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin: 10px;
+    width: calc(30% - 20px);
+    overflow: hidden;
+}
+.card img {
+    width: 100%;
+    height: auto;
+}
+.card-content {
+    padding: 15px;
+}
+.card-content h2 {
+    font-size: 1.5em;
+    margin: 0 0 10px;
+}
+.card-content p {
+    color: #555;
+}
